@@ -3,6 +3,7 @@ import { projectsData } from '@/utils/data/projects-data';
 import { useState } from 'react';
 import ProjectCard from './project-card';
 import ProjectModal from './project-modal';
+import Image from 'next/image';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -16,17 +17,28 @@ const Projects = () => {
   };
 
   return (
-    <div id='projects' className="relative z-50 my-12 lg:my-24">
-      <div className="w-full text-center mb-16">
-        <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute left-1/2 -translate-x-1/2 filter blur-3xl opacity-30"></div>
-        <div className="flex flex-col items-center justify-center relative">
-          <div className="flex items-center gap-4">
-            <span className="w-24 h-[2px] bg-gradient-to-r from-transparent via-[#1a1443] to-[#1a1443]"></span>
-            <span className="bg-[#1a1443] w-fit text-white px-8 py-3 text-xl rounded-md">
-              PROJECTS
-            </span>
-            <span className="w-24 h-[2px] bg-gradient-to-r from-[#1a1443] to-[#1a1443] via-transparent"></span>
-          </div>
+    <div id='projects' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+      <Image
+        src="/section.svg"
+        alt="Hero"
+        width={1572}
+        height={795}
+        className="absolute top-0 -z-10"
+      />
+      
+      <div className="flex justify-center -translate-y-[1px]">
+        <div className="w-3/4">
+          <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent w-full" />
+        </div>
+      </div>
+
+      <div className="flex justify-center my-5 lg:py-8">
+        <div className="flex items-center">
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+            PROJECTS
+          </span>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
       </div>
 
