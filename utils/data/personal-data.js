@@ -2,7 +2,7 @@ export const personalData = {
   name: "Meet Vaghani",
   profile: '/meet.jpeg',
   designation: "Software Developer",
-  description: "I'm Meet Vaghani, a driven and passionate programmer currently pursuing a B.Tech at Pandit Deendayal Energy University (PDEU). I have a strong interest in web development, machine learning, and problem-solving. I enjoy creating innovative solutions and exploring new technologies to enhance user experiences. With experience in building projects like FinLink, DocDirect, and StayInt, I work with a variety of programming languages and technologies to bring ideas to life. Always eager to learn and grow, I am open to new opportunities where I can apply my skills and contribute to impactful projects.",
+  description: "I'm Meet Vaghani, a passionate full-stack developer with a B.Tech in Computer Engineering from Pandit Deendayal Energy University (PDEU). I have a strong interest in web development, machine learning, and building scalable, AI-driven applications. I enjoy creating innovative solutions that improve user experiences and explore emerging technologies like LLMs and real-time systems. With experience in projects like Vedrix, AnveshaCode, HomePraise, Eventopia, VaghaniGpt, and FinLink, I work across diverse domains and tech stacks to bring ideas to life. Always eager to learn and grow, I’m open to opportunities where I can apply my skills and contribute to impactful products.",
   email: 'meetvaghani1239@gmail.com',
   phone: '+91 95108-80097',
   address: 'Surat,Gujarat,India',

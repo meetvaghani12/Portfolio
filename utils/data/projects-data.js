@@ -1,12 +1,15 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Stayinit- The Easy Way to Accommodation',
-        description: "This project enables users to add accommodations like hostels and hotels, with machine learning algorithms offering real-time price suggestions based on location. It includes OTP-based authentication, secure email-based password recovery, and advanced filtering options. Google Maps API integration shows property locations and nearby landmarks. Docker ensures consistent deployment and scalability, while the app achieved excellent Google Lighthouse scores.",
-        tools: ['Express', 'MongoDB', 'HTML', 'CSS', 'Java-Script','Python','Node Mailer', 'Node', 'Google-Maps-API',"Machine Learning Models"],
+        name: 'Vedrix – Academic Plagiarism Detection Platform 🧠',
+        description: "Vedrix is a Turnitin-style academic content verification platform that processes PDF and Word files using NLP techniques and LLMs for deep content analysis. It leverages the Google Search API for real-time similarity detection, helping to identify potential plagiarism. Built with a secure Django backend, the platform features Two-Factor Authentication (2FA), Google OAuth login, and robust file parsing/tokenization workflows.",
+        tools: [
+            'Django', 'TypeScript', 'LLMs', 'Google Search API', 
+            'PDF/Doc Parsing', 'Tokenization', 'Google OAuth', '2FA'
+        ],
         code: '',
         demo: '',
-        image: '/projects/stayinit.png'
+        image: '/projects/vedrix.png'
     },
     {
         id: 2,
@@ -38,16 +41,15 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Eventopia – Real-time Event Ticketing Platform',
-        description: "Eventopia is a real-time event ticketing platform that enables secure, scalable ticket sales using technologies like Next.js 14, Convex, Stripe Connect, and Clerk. It offers smart queue management, live ticket updates, automated refund processing, QR-based digital tickets, and rich analytics for organizers. Designed with a modern, mobile-first UI, it ensures smooth experiences for both attendees and organizers, with real-time interactions and accessibility baked in.",
+        name: 'HomePraise – Smart Real Estate Platform 🏡',
+        description: "HomePraise is an AI-powered real estate SaaS platform for buying, selling, and evaluating properties. It features machine learning-based price predictions, LLM-generated property descriptions, AI-driven loan insights, and interactive property listings via Google Maps. The platform also offers tiered subscription plans with Stripe integration, and secure authentication via Google OAuth. Designed for both accuracy and user experience, it transforms how users engage with real estate platforms.",
         tools: [
-            'Next.js 14', 'Convex', 'Clerk', 'Stripe Connect', 'TailwindCSS',
-            'shadcn/ui', 'React', 'TypeScript', 'Stripe Webhooks', 'Vercel',
-            'ESLint', 'Animated Transitions', 'Rate Limiting', 'Toast Notifications'
+            'Next.js', 'PostgreSQL', 'Google Maps API', 'Google OAuth', 
+            'Stripe', 'Tailwind CSS', 'LLMs', 'Machine Learning', 'Reinforcement Learning'
         ],
-        code: 'https://github.com/meetvaghani12/Eventopia',
-        demo: 'https://evenopia.vercel.app/',
-        image: '/projects/eventopia.png'
+        code: '',
+        demo: '',
+        image: '/projects/homepraise.png'
     },
     {
         id: 5,
@@ -63,6 +65,28 @@ export const projectsData = [
     },
     {
         id: 6,
+        name: 'Eventopia – Real-time Event Ticketing Platform',
+        description: "Eventopia is a real-time event ticketing platform that enables secure, scalable ticket sales using technologies like Next.js 14, Convex, Stripe Connect, and Clerk. It offers smart queue management, live ticket updates, automated refund processing, QR-based digital tickets, and rich analytics for organizers. Designed with a modern, mobile-first UI, it ensures smooth experiences for both attendees and organizers, with real-time interactions and accessibility baked in.",
+        tools: [
+            'Next.js 14', 'Convex', 'Clerk', 'Stripe Connect', 'TailwindCSS',
+            'shadcn/ui', 'React', 'TypeScript', 'Stripe Webhooks', 'Vercel',
+            'ESLint', 'Animated Transitions', 'Rate Limiting', 'Toast Notifications'
+        ],
+        code: 'https://github.com/meetvaghani12/Eventopia',
+        demo: 'https://evenopia.vercel.app/',
+        image: '/projects/eventopia.png'
+    },
+    {
+        id: 7,
+        name: 'Stayinit- The Easy Way to Accommodation',
+        description: "This project enables users to add accommodations like hostels and hotels, with machine learning algorithms offering real-time price suggestions based on location. It includes OTP-based authentication, secure email-based password recovery, and advanced filtering options. Google Maps API integration shows property locations and nearby landmarks. Docker ensures consistent deployment and scalability, while the app achieved excellent Google Lighthouse scores.",
+        tools: ['Express', 'MongoDB', 'HTML', 'CSS', 'Java-Script','Python','Node Mailer', 'Node', 'Google-Maps-API',"Machine Learning Models"],
+        code: '',
+        demo: '',
+        image: '/projects/stayinit.png'
+    },
+    {
+        id: 8,
         name: 'FlexDrop – Modern File & Text Sharing Platform',
         description: "FlexDrop is a modern and secure platform for sharing files and text, similar to WeTransfer. It allows users to upload files or notes and generate shareable download links. The platform includes authentication, optional file expiry, and premium features through Stripe payments. With a clean, responsive UI and scalable backend, FlexDrop ensures easy and efficient content sharing for both free and premium users.",
         tools: [
@@ -72,30 +96,6 @@ export const projectsData = [
         code: 'https://github.com/your-username/flexdrop',
         demo: 'https://flux-drop.vercel.app/',
         image: '/projects/flexdrop.png'
-    },
-    {
-        id: 7,
-        name: 'HomePraise – Smart Real Estate Platform 🏡',
-        description: "HomePraise is an AI-powered real estate SaaS platform for buying, selling, and evaluating properties. It features machine learning-based price predictions, LLM-generated property descriptions, AI-driven loan insights, and interactive property listings via Google Maps. The platform also offers tiered subscription plans with Stripe integration, and secure authentication via Google OAuth. Designed for both accuracy and user experience, it transforms how users engage with real estate platforms.",
-        tools: [
-            'Next.js', 'PostgreSQL', 'Google Maps API', 'Google OAuth', 
-            'Stripe', 'Tailwind CSS', 'LLMs', 'Machine Learning', 'Reinforcement Learning'
-        ],
-        code: '',
-        demo: '',
-        image: '/projects/homepraise.png'
-    },
-    {
-        id: 8,
-        name: 'Vedrix – Academic Plagiarism Detection Platform 🧠',
-        description: "Vedrix is a Turnitin-style academic content verification platform that processes PDF and Word files using NLP techniques and LLMs for deep content analysis. It leverages the Google Search API for real-time similarity detection, helping to identify potential plagiarism. Built with a secure Django backend, the platform features Two-Factor Authentication (2FA), Google OAuth login, and robust file parsing/tokenization workflows.",
-        tools: [
-            'Django', 'TypeScript', 'LLMs', 'Google Search API', 
-            'PDF/Doc Parsing', 'Tokenization', 'Google OAuth', '2FA'
-        ],
-        code: '',
-        demo: '',
-        image: '/projects/vedrix.png'
     },
     {
         id: 9,
