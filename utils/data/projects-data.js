@@ -7,7 +7,7 @@ export const projectsData = [
             'Django', 'TypeScript', 'LLMs', 'Google Search API', 
             'PDF/Doc Parsing', 'Tokenization', 'Google OAuth', '2FA'
         ],
-        code: '',
+        code: 'https://github.com/meetvaghani12/vedrix',
         demo: '',
         image: '/projects/vedrix.png'
     },
@@ -22,8 +22,8 @@ export const projectsData = [
             'LLMs', 'Multer', 'Morgan', 'react-markdown', '@react-pdf/renderer', 
             'qrcode.react', 'recharts', 'embla-carousel-react'
         ],
-        code: '',
-        demo: '',
+        code: 'https://github.com/meetvaghani12/AnveshaCode',
+        demo: 'https://anvesha-code.vercel.app/',
         image: '/projects/anveshacode.png'
     },
     {
@@ -35,8 +35,8 @@ export const projectsData = [
             'React Router', 'React Query', 'Supabase', 'OpenRouter AI', 
             'ESLint', 'PostCSS', 'SWC', 'Radix UI'
         ],
-        code: '',
-        demo: '',
+        code: 'https://github.com/meetvaghani12/GenMode',
+        demo: 'https://genmode.vercel.app/',
         image: '/projects/genmode.png'
     },
     {
@@ -47,7 +47,7 @@ export const projectsData = [
             'Next.js', 'PostgreSQL', 'Google Maps API', 'Google OAuth', 
             'Stripe', 'Tailwind CSS', 'LLMs', 'Machine Learning', 'Reinforcement Learning'
         ],
-        code: '',
+        code: 'https://github.com/meetvaghani12/HomePraise',
         demo: '',
         image: '/projects/homepraise.png'
     },
@@ -87,13 +87,13 @@ export const projectsData = [
     },
     {
         id: 8,
-        name: 'FlexDrop – Modern File & Text Sharing Platform',
-        description: "FlexDrop is a modern and secure platform for sharing files and text, similar to WeTransfer. It allows users to upload files or notes and generate shareable download links. The platform includes authentication, optional file expiry, and premium features through Stripe payments. With a clean, responsive UI and scalable backend, FlexDrop ensures easy and efficient content sharing for both free and premium users.",
+        name: 'fluxdrop – Modern File & Text Sharing Platform',
+        description: "fluxdrop is a modern and secure platform for sharing files and text, similar to WeTransfer. It allows users to upload files or notes and generate shareable download links. The platform includes authentication, optional file expiry, and premium features through Stripe payments. With a clean, responsive UI and scalable backend, fluxdrop ensures easy and efficient content sharing for both free and premium users.",
         tools: [
             'React', 'Next.js', 'TailwindCSS', 'Node.js', 'Express.js',
             'MongoDB', 'PostgreSQL', 'JWT', 'NextAuth.js', 'Stripe'
         ],
-        code: 'https://github.com/your-username/flexdrop',
+        code: 'https://github.com/your-username/fluxdrop',
         demo: 'https://flux-drop.vercel.app/',
         image: '/projects/flexdrop.png'
     },

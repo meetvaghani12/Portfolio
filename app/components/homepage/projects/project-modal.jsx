@@ -22,8 +22,10 @@ const ProjectModal = ({ project, onClose }) => {
             className="object-cover"
             sizes="(max-width: 1536px) 100vw, 1536px"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0d1224] to-transparent opacity-60"></div>
-          <h2 className="absolute bottom-6 left-6 text-3xl font-bold text-[#16f2b3]">{project.name}</h2>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d1224] via-[#0d1224]/80 to-transparent"></div>
+          <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-[#0d1224] to-transparent">
+            <h2 className="text-3xl font-bold text-[#16f2b3]">{project.name}</h2>
+          </div>
         </div>
 
         <div className="p-6">
