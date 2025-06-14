@@ -11,7 +11,7 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/meet-vaghani-422a78224/',
   twitter: 'https://x.com/MeetVag78485818',
   devUsername: "meetvaghani15",
-  resume: "https://drive.google.com/file/d/1oHMAHOpWTpCb9WlZaeX7EJHwRnHL_CnI/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/10RaP9c8VrD71QtUdnwTYLncaP-G3XSKv/view?usp=sharing"
 }
 
 //favicon.ico
