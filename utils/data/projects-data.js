@@ -8,7 +8,7 @@ export const projectsData = [
             'PDF/Doc Parsing', 'Tokenization', 'Google OAuth', '2FA'
         ],
         code: 'https://github.com/meetvaghani12/vedrix',
-        demo: '',
+        demo: 'https://vedrix.vercel.app',
         image: '/projects/vedrix.png'
     },
     {
