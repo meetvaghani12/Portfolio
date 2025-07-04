@@ -52,17 +52,15 @@ export const projectsData = [
         image: '/projects/homepraise.png'
     },
     {
-        id: 5,
-        name: 'VaghaniGPT – Multi-Model AI Chat Application 🔮',
-        description: "VaghaniGPT is a secure, full-featured AI chat platform that supports multi-model interaction with GPT-4.1, Google Gemini, and DeepSeek. It includes robust authentication mechanisms like Google OAuth and two-factor OTP-based email login. Users can chat with different models, manage full chat history, and switch between past sessions with ease. The app is built for both performance and security, ensuring a smooth and private conversational experience.",
-        tools: [
-            'Next.js', 'React', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL', 'Prisma',
-            'JWT', 'Email OTP', 'Google OAuth', 'OpenAI GPT-4.1', 'Google Gemini', 'DeepSeek'
-        ],
-        code: 'https://github.com/meetvaghani12/VaghaniGpt',
-        demo: '',
-        image: '/projects/vaghanigpt.png'
-    },
+    id: 5,
+    name: 'Diagnosely - Your AI-Powered Medical Assistant',
+    description: "Diagnosely is a modern web application that enables users to analyze medical documents such as receipts, lab reports, and prescriptions through AI-powered text extraction, providing comprehensive summaries, key findings, medication analysis, and follow-up recommendations. It features an interactive AI medical chat for personalized health guidance and terminology clarification. Users benefit from secure document storage, real-time data synchronization, and a responsive dashboard, with HIPAA-compliant data handling and end-to-end encryption ensuring robust security and privacy.",
+    tools: ['React.js', 'TypeScript', 'Node.js', 'Express', 'PostgraceSql', 'Tesseract.js', 'LLM Models', 'shadcn/ui', 'PDF Processing'],
+    code: 'https://github.com/meetvaghani12/Diagnosely',
+    demo: 'https://diagnosely.vercel.app',
+    image: '/projects/diagnosely.png'
+},
+    
     {
         id: 6,
         name: 'Eventopia – Real-time Event Ticketing Platform',
@@ -76,17 +74,10 @@ export const projectsData = [
         demo: 'https://evenopia.vercel.app/',
         image: '/projects/eventopia.png'
     },
+   
+
     {
         id: 7,
-        name: 'Stayinit- The Easy Way to Accommodation',
-        description: "This project enables users to add accommodations like hostels and hotels, with machine learning algorithms offering real-time price suggestions based on location. It includes OTP-based authentication, secure email-based password recovery, and advanced filtering options. Google Maps API integration shows property locations and nearby landmarks. Docker ensures consistent deployment and scalability, while the app achieved excellent Google Lighthouse scores.",
-        tools: ['Express', 'MongoDB', 'HTML', 'CSS', 'Java-Script','Python','Node Mailer', 'Node', 'Google-Maps-API',"Machine Learning Models"],
-        code: '',
-        demo: '',
-        image: '/projects/stayinit.png'
-    },
-    {
-        id: 8,
         name: 'fluxdrop – Modern File & Text Sharing Platform',
         description: "fluxdrop is a modern and secure platform for sharing files and text, similar to WeTransfer. It allows users to upload files or notes and generate shareable download links. The platform includes authentication, optional file expiry, and premium features through Stripe payments. With a clean, responsive UI and scalable backend, fluxdrop ensures easy and efficient content sharing for both free and premium users.",
         tools: [
@@ -96,6 +87,18 @@ export const projectsData = [
         code: 'https://github.com/your-username/fluxdrop',
         demo: 'https://flux-drop.vercel.app/',
         image: '/projects/flexdrop.png'
+    },
+    {
+        id: 8,
+        name: 'VaghaniGPT – Multi-Model AI Chat Application 🔮',
+        description: "VaghaniGPT is a secure, full-featured AI chat platform that supports multi-model interaction with GPT-4.1, Google Gemini, and DeepSeek. It includes robust authentication mechanisms like Google OAuth and two-factor OTP-based email login. Users can chat with different models, manage full chat history, and switch between past sessions with ease. The app is built for both performance and security, ensuring a smooth and private conversational experience.",
+        tools: [
+            'Next.js', 'React', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL', 'Prisma',
+            'JWT', 'Email OTP', 'Google OAuth', 'OpenAI GPT-4.1', 'Google Gemini', 'DeepSeek'
+        ],
+        code: 'https://github.com/meetvaghani12/VaghaniGpt',
+        demo: '',
+        image: '/projects/vaghanigpt.png'
     },
     {
         id: 9,
