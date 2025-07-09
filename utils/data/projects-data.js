@@ -11,8 +11,27 @@ export const projectsData = [
         demo: 'https://vedrix.vercel.app',
         image: '/projects/vedrix.png'
     },
+   {
+    id: 2,
+    name: 'VIXILABS - AI Text-to-Video Generation Platform',
+    description: "VIXILABS is a cutting-edge AI-powered platform that converts text into high-quality, professional videos in real-time. Designed for creators, educators, and marketers, it supports multiple formats like MP4, GIF, and WebM. With powerful features like secure authentication (JWT, 2FA, Google OAuth), advanced analytics, team collaboration, and responsive design, VIXILABS offers a seamless experience. Built using modern technologies and best practices, it ensures speed, security, and scalability across all devices.",
+    tools: [
+        'React 18', 'TypeScript', 'Vite', 'Express.js', 'Node.js',
+        'PostgreSQL', 'Prisma ORM', 'Redis',
+        'JWT', 'Google OAuth', '2FA', 'Helmet',
+        'Tailwind CSS', 'Shadcn UI', 'Radix UI', 'Lucide React',
+        'React Query', 'React Router DOM', 'React Hook Form', 'Zod',
+        'Multer', 'Supertest', 'Nodemailer',
+        'Recharts', 'date-fns', 'Sonner',
+        'Text-to-Video Generation Model', 'Hugging Face Inference API'
+    ],
+    code: '',
+    demo: '',
+    image: '/projects/vixilabs.png'
+},
+
     {
-        id: 2,
+        id: 3,
         name: 'AnveshaCode – AI-Powered Code Review SaaS',
         description: "AnveshaCode (अन्वेषा) is an intelligent, full-stack SaaS platform that automates code reviews using LLMs and autonomous agents. It analyzes entire codebases, detects issues, and recommends smart improvements. Built with Next.js 15 and TypeScript, the platform supports advanced features like JWT-based authentication, Stripe subscriptions, PDF and QR generation, dark mode, and real-time notifications. It integrates Redis caching, Azure AI, Google OAuth, and uses PostgreSQL via Prisma ORM for robust data handling.",
         tools: [
@@ -26,19 +45,7 @@ export const projectsData = [
         demo: 'https://anvesha-code.vercel.app/',
         image: '/projects/anveshacode.png'
     },
-    {
-        id: 3,
-        name: 'GenMode – Gen-Z Translator 🚀',
-        description: "GenMode is a modern AI-powered web app that translates regular text into authentic Gen-Z lingo. Users can choose from unique personas like TikToker, Meme Lord, or BookTok Queen to tailor their translations. It features a responsive and elegant UI, secure authentication, history tracking, and seamless copy/share functionality. Powered by OpenRouter AI and Supabase, GenMode delivers fast, fun, and contextual Gen-Z translations with real-time updates.",
-        tools: [
-            'React 18', 'TypeScript', 'Vite', 'TailwindCSS', 'shadcn/ui', 'Lucide React',
-            'React Router', 'React Query', 'Supabase', 'OpenRouter AI', 
-            'ESLint', 'PostCSS', 'SWC', 'Radix UI'
-        ],
-        code: 'https://github.com/meetvaghani12/GenMode',
-        demo: 'https://genmode.vercel.app/',
-        image: '/projects/genmode.png'
-    },
+    
     {
         id: 4,
         name: 'HomePraise – Smart Real Estate Platform 🏡',
@@ -61,18 +68,18 @@ export const projectsData = [
     image: '/projects/diagnosely.png'
 },
     
-    {
+   {
         id: 6,
-        name: 'Eventopia – Real-time Event Ticketing Platform',
-        description: "Eventopia is a real-time event ticketing platform that enables secure, scalable ticket sales using technologies like Next.js 14, Convex, Stripe Connect, and Clerk. It offers smart queue management, live ticket updates, automated refund processing, QR-based digital tickets, and rich analytics for organizers. Designed with a modern, mobile-first UI, it ensures smooth experiences for both attendees and organizers, with real-time interactions and accessibility baked in.",
+        name: 'GenMode – Gen-Z Translator 🚀',
+        description: "GenMode is a modern AI-powered web app that translates regular text into authentic Gen-Z lingo. Users can choose from unique personas like TikToker, Meme Lord, or BookTok Queen to tailor their translations. It features a responsive and elegant UI, secure authentication, history tracking, and seamless copy/share functionality. Powered by OpenRouter AI and Supabase, GenMode delivers fast, fun, and contextual Gen-Z translations with real-time updates.",
         tools: [
-            'Next.js 14', 'Convex', 'Clerk', 'Stripe Connect', 'TailwindCSS',
-            'shadcn/ui', 'React', 'TypeScript', 'Stripe Webhooks', 'Vercel',
-            'ESLint', 'Animated Transitions', 'Rate Limiting', 'Toast Notifications'
+            'React 18', 'TypeScript', 'Vite', 'TailwindCSS', 'shadcn/ui', 'Lucide React',
+            'React Router', 'React Query', 'Supabase', 'OpenRouter AI', 
+            'ESLint', 'PostCSS', 'SWC', 'Radix UI'
         ],
-        code: 'https://github.com/meetvaghani12/Eventopia',
-        demo: 'https://evenopia.vercel.app/',
-        image: '/projects/eventopia.png'
+        code: 'https://github.com/meetvaghani12/GenMode',
+        demo: 'https://genmode.vercel.app/',
+        image: '/projects/genmode.png'
     },
    
 
@@ -100,15 +107,20 @@ export const projectsData = [
         demo: '',
         image: '/projects/vaghanigpt.png'
     },
-    {
+     {
         id: 9,
-        name: 'FinLink- Secure and Real-Time Financial Transactions',
-        description: "FinLink is a financial SaaS platform that integrates multiple bank accounts, offering real-time transaction updates and secure money transfers. It features ultra-secure SSR authentication, Plaid integration for seamless bank account linking, and Dwolla for efficient fund transfers. The platform ensures an enhanced user experience with real-time updates and detailed transaction history. Built with responsive design, it is fully compatible across all devices.",
-        tools: ['Next.js', 'TypeScript', 'Appwrite', 'Plaid', 'Dwolla', 'React Hook Form', 'Zod', 'TailwindCSS', 'Chart.js', 'ShadCN', 'SSR Authentication', 'MongoDB', 'Docker'],
-        code: '',
-        demo: '',
-        image: '/projects/finlink.png'
-    }
+        name: 'Eventopia – Real-time Event Ticketing Platform',
+        description: "Eventopia is a real-time event ticketing platform that enables secure, scalable ticket sales using technologies like Next.js 14, Convex, Stripe Connect, and Clerk. It offers smart queue management, live ticket updates, automated refund processing, QR-based digital tickets, and rich analytics for organizers. Designed with a modern, mobile-first UI, it ensures smooth experiences for both attendees and organizers, with real-time interactions and accessibility baked in.",
+        tools: [
+            'Next.js 14', 'Convex', 'Clerk', 'Stripe Connect', 'TailwindCSS',
+            'shadcn/ui', 'React', 'TypeScript', 'Stripe Webhooks', 'Vercel',
+            'ESLint', 'Animated Transitions', 'Rate Limiting', 'Toast Notifications'
+        ],
+        code: 'https://github.com/meetvaghani12/Eventopia',
+        demo: 'https://evenopia.vercel.app/',
+        image: '/projects/eventopia.png'
+    },
+   
 ];
 
 
