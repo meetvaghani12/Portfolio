@@ -91,9 +91,9 @@ export const projectsData = [
             'React', 'Next.js', 'TailwindCSS', 'Node.js', 'Express.js',
             'MongoDB', 'PostgreSQL', 'JWT', 'NextAuth.js', 'Stripe'
         ],
-        code: 'https://github.com/your-username/fluxdrop',
-        demo: 'https://flux-drop.vercel.app/',
-        image: '/projects/flexdrop.png'
+        code: 'https://github.com/meetvaghani12/fluxdrop',
+        demo: 'https://fluxdrop.vercel.app/',
+        image: '/projects/fluxdrop.png'
     },
     {
         id: 8,
