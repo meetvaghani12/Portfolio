@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: 'Web Developer Intern',
     company: "Superior Exports Limited.",
-    duration: "(June 2024 - Nov 2024)"
+    duration: "(May 2024 - July 2024)"
   },
   {
     id: 2,
@@ -15,8 +15,8 @@ export const experiences = [
   {
     id: 2,
     title: "Full Stack Developer",
-    company: "Catalysers Finovate LLP",
-    duration: "(Feb 2025 - Present)"
+    company: "AppArrow Infotech",
+    duration: "(Dec 2024 - Present)"
    
   },
   {
